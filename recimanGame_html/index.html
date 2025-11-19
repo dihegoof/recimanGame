@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Reciman Game</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/icon.ico">
+</head>
+
+<body>
+  <div id="hud" class="hidden">
+    <div id="score">🎯: 0</div>
+    <div id="level">🚀: 1</div>
+    <div id="rats">🐭: 0</div>
+	<div id="lives">❤️❤️❤️❤️❤️</div>
+    <button id="backToMenu">Menu</button>
+  </div>
+  
+  <div id="game-area">
+      <canvas id="gameCanvas" width="640" height="480"></canvas>
+      <div id="ui">
+        <div id="menu" class="panel">
+          <h1>Reciman Game</h1>
+          <button id="startBtn">Iniciar Jogo</button>
+          <p>Objetivo: pegue o lixo e leve até a lixeira correta. Cuidado com os ratos!</p>
+          <p>Controles: Setas ou WASD. Espaço para interagir (pegar/soltar)</p>
+        </div>
+
+        <div id="message" class="hidden"></div>
+      </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
