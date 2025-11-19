@@ -42,13 +42,6 @@ Tudo isso em um mapa estilo labirinto gerado proceduralmente.
 - 4 lixeiras correspondentes (Plástico, Papel, Metal, Orgânico)
 - Sistema que evita spawns sobrepostos
 
-### ✔️ HUD Completo
-- Pontuação 🎯  
-- Fase 🚀  
-- Contador de ratos 🐭  
-- Vidas ❤️❤️❤️🖤🖤  
-- Mensagens rápidas e coloridas de feedback
-
 ### ✔️ Inimigos
 - **Rato ladrão**: rouba o lixo do jogador  
 - **Rato rei**: causa dano  
